@@ -1,0 +1,84 @@
+/*
+  Localizable.strings
+  MyGithubDemo
+  简体中文本地化文件
+*/
+
+// MARK: - Common
+"ok" = "确定";
+"cancel" = "取消";
+"retry" = "重试";
+"error_title" = "出错了";
+"loading" = "加载中...";
+
+// MARK: - Tab Bar
+"home" = "首页";
+"search" = "搜索";
+"profile" = "我的";
+
+// MARK: - Login
+"login_title" = "GitHub Client";
+"login_subtitle" = "探索开源世界，发现精彩项目";
+"login_github" = "使用 GitHub 登录";
+"login_biometric" = "使用 %@ 快速登录";
+"login_skip" = "跳过登录";
+"login_password" = "使用密码";
+"login_error_token" = "获取访问令牌失败";
+"login_error_unauthorized" = "授权失败，请重新登录";
+"login_error_code" = "无法获取授权码";
+
+// MARK: - Home
+"home_title" = "热门仓库";
+
+// MARK: - Repository Detail
+"open_in_github" = "在 GitHub 中打开";
+"stars" = "Stars";
+"forks" = "Forks";
+"watchers" = "Watchers";
+"issues" = "Issues";
+"select_repository" = "选择一个仓库查看详情";
+
+// MARK: - Search
+"search_title" = "搜索";
+"search_placeholder" = "搜索仓库或用户...";
+"search_repositories" = "仓库";
+"search_users" = "用户";
+"search_empty" = "输入关键词开始搜索";
+"search_no_results" = "未找到相关结果";
+
+// MARK: - Profile
+"profile_title" = "个人主页";
+"profile_repos" = "仓库";
+"profile_followers" = "粉丝";
+"profile_following" = "关注";
+"profile_logout" = "退出登录";
+"profile_logout_confirm_title" = "确认退出";
+"profile_logout_confirm_message" = "确定要退出登录吗？";
+"profile_not_logged_in" = "尚未登录";
+"profile_login_prompt" = "登录后可查看个人信息和管理仓库";
+"profile_biometric" = "启用 %@ 快速登录";
+
+// MARK: - Network Errors
+"network_error_invalid_url" = "无效的 URL";
+"network_error_invalid_response" = "无效的响应";
+"network_error_http" = "HTTP 错误: %d";
+"network_error_decoding" = "数据解析失败";
+"network_error_no_data" = "没有数据";
+"network_error_unauthorized" = "未授权，请先登录";
+"network_error_unknown" = "未知错误";
+
+// MARK: - Keychain Errors
+"keychain_error_encoding" = "数据编码失败";
+"keychain_error_save" = "保存失败";
+"keychain_error_delete" = "删除失败";
+
+// MARK: - Biometric
+"biometric_none" = "不支持";
+"biometric_reason" = "使用 %@ 验证您的身份";
+"biometric_error_not_available" = "设备不支持生物识别";
+"biometric_error_not_enrolled" = "请先在系统设置中录入生物识别信息";
+"biometric_error_locked_out" = "生物识别已被锁定，请稍后再试";
+"biometric_error_failed" = "验证失败";
+"biometric_error_cancel" = "验证已取消";
+"biometric_error_fallback" = "请使用其他方式登录";
+"biometric_error_unknown" = "未知错误";
